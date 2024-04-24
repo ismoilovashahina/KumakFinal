@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ProjectWorkAprilKumak</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_photo">Edit Photo</string>
+
+    <string-array name="createFundraising_categories">
+        <item>Education</item>
+        <item>Environment</item>
+        <item>Social</item>
+        <item>Sick Child</item>
+        <item>Medical</item>
+        <item>Infrastructure</item>
+        <item>Art</item>
+        <item>Disaster</item>
+        <item>Orphanage</item>
+        <item>Disable</item>
+        <item>Humanity</item>
+        <item>Others</item>
+
+    </string-array>
+</resources>

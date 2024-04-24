@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/cardViewInterest"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:layout_margin="20dp">
+
+<ImageView
+    android:id="@+id/interest_ic"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="-15dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/education_icon" />
+
+    <TextView
+        android:id="@+id/interest_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:fontFamily="@font/source_sans_pro_regular"
+        android:textColor="@color/title_color"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+</androidx.cardview.widget.CardView>

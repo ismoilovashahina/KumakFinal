@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.projectworkaprilkumak.onboarding.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.projectworkaprilkumak.onboarding.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.projectworkaprilkumak.onboarding.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.projectworkaprilkumak.onboarding.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/selectCountryFragment"
+        android:name="com.example.projectworkaprilkumak.onboarding.accaunt_setup.SelectCountryFragment"
+        android:label="fragment_select_country"
+        tools:layout="@layout/fragment_select_country" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.projectworkaprilkumak.Home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/fillProfile"
+        android:name="com.example.projectworkaprilkumak.onboarding.accaunt_setup.FillProfile"
+        android:label="fragment_fill_profile"
+        tools:layout="@layout/fragment_fill_profile" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/selectInterestFragment"
+        android:name="com.example.projectworkaprilkumak.onboarding.accaunt_setup.SelectInterestFragment"
+        android:label="fragment_select_interest"
+        tools:layout="@layout/fragment_select_interest" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/createPinFragment"
+        android:name="com.example.projectworkaprilkumak.onboarding.accaunt_setup.CreatePinFragment"
+        android:label="fragment_create_pin"
+        tools:layout="@layout/fragment_create_pin" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/bookmarkFragment"
+        android:name="com.example.projectworkaprilkumak.actionbar.BookmarkFragment"
+        android:label="fragment_bookmark"
+        tools:layout="@layout/fragment_bookmark" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.projectworkaprilkumak.actionbar.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.projectworkaprilkumak.navbar.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.projectworkaprilkumak.navbar.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/myFundraisingFragment"
+        android:name="com.example.projectworkaprilkumak.navbar.MyFundraisingFragment"
+        android:label="fragment_my_fundraising"
+        tools:layout="@layout/fragment_my_fundraising" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.projectworkaprilkumak.navbar.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/endingFragment"
+        android:name="com.example.projectworkaprilkumak.Home.EndingFragment"
+        android:label="fragment_ending"
+        tools:layout="@layout/fragment_ending" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/impactFragment"
+        android:name="com.example.projectworkaprilkumak.Home.ImpactFragment"
+        android:label="fragment_impact"
+        tools:layout="@layout/fragment_impact" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/prayersFragment"
+        android:name="com.example.projectworkaprilkumak.Home.PrayersFragment"
+        android:label="fragment_prayers"
+        tools:layout="@layout/fragment_prayers" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/urgentFragment"
+        android:name="com.example.projectworkaprilkumak.Home.UrgentFragment"
+        android:label="fragment_urgent"
+        tools:layout="@layout/fragment_urgent" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/donationDetailsFragment"
+        android:name="com.example.projectworkaprilkumak.donation_details.DonationDetailsFragment"
+        android:label="fragment_donation_details"
+        tools:layout="@layout/fragment_donation_details" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/donateFragment"
+        android:name="com.example.projectworkaprilkumak.donation_details.DonateFragment"
+        android:label="fragment_donate"
+        tools:layout="@layout/fragment_donate" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/enterPinFragment"
+        android:name="com.example.projectworkaprilkumak.donation_details.EnterPinFragment"
+        android:label="fragment_enter_pin"
+        tools:layout="@layout/fragment_enter_pin" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/allImpactsFragment"
+        android:name="com.example.projectworkaprilkumak.Home.AllImpactsFragment"
+        android:label="fragment_all_impacts"
+        tools:layout="@layout/fragment_all_impacts" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.projectworkaprilkumak.actionbar.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/createNewFundRaisingFragment"
+        android:name="com.example.projectworkaprilkumak.myfundraising.CreateNewFundRaisingFragment"
+        android:label="fragment_create_new_fund_raising"
+        tools:layout="@layout/fragment_create_new_fund_raising" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/editMyFundraisingFragment"
+        android:name="com.example.projectworkaprilkumak.myfundraising.EditMyFundraisingFragment"
+        android:label="fragment_edit_my_fundraising"
+        tools:layout="@layout/fragment_edit_my_fundraising" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.projectworkaprilkumak.profile.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/seeResultsFragment"
+        android:name="com.example.projectworkaprilkumak.myfundraising.SeeResultsFragment"
+        android:label="fragment_see_results"
+        tools:layout="@layout/fragment_see_results" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.projectworkaprilkumak.profile.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/topUpFragment"
+        android:name="com.example.projectworkaprilkumak.profile.TopUpFragment"
+        android:label="fragment_top_up"
+        tools:layout="@layout/fragment_top_up" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/withDrawFragment"
+        android:name="com.example.projectworkaprilkumak.profile.WithDrawFragment"
+        android:label="fragment_with_draw"
+        tools:layout="@layout/fragment_with_draw" />
+    <fragment
+        android:id="@+id/walletCenterFragment"
+        android:name="com.example.projectworkaprilkumak.profile.WalletCenterFragment"
+        android:label="fragment_wallet_center"
+        tools:layout="@layout/fragment_wallet_center" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.projectworkaprilkumak.onboarding.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+
+    </fragment>
+</navigation>

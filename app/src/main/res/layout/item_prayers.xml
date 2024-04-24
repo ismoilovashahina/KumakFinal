@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/prayerAvatar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="start"
+        android:scaleType="centerCrop"
+        android:src="@drawable/man4"
+        android:layout_marginBottom="10dp"
+        app:shapeAppearanceOverlay="@style/portrait" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp" >
+        <TextView
+            android:id="@+id/prayerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esther Howard"
+            android:textColor="@color/title_color" />
+        <TextView
+            android:id="@+id/prayerDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/prayerTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hopefully Audrey can get surgery soon, recover from her illness, and play with her friends.." />
+
+    <TextView
+        android:id="@+id/prayerShares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro_light"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="You and 48 others sent this prayer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_baseline_heart_broken_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aamiin"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"/>
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_baseline_share_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

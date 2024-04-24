@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666593760449",
+    "project_id": "projectaprilworkkumak",
+    "storage_bucket": "projectaprilworkkumak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666593760449:android:9ec9d155d5b6c4bc4ff040",
+        "android_client_info": {
+          "package_name": "com.example.projectworkaprilkumak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0rbYelxPC4sjK4doqu8mi9B_F14Mx42A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
